@@ -1,5 +1,15 @@
-.App {
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Russo+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+.app {
   text-align: center;
+}
+.app__header {
+  text-align: center;
+  position: relative;
+  top: 250px;
+  font-weight: bold;
+  font-size: 50px;
+  color: #271048;
 }
 
 .App-logo {
@@ -9,10 +19,10 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    -webkit-animation: App-logo-spin infinite 20s linear;
+            animation: App-logo-spin infinite 20s linear;
   }
 }
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -28,7 +38,7 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
+@-webkit-keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
@@ -36,3 +46,12 @@
     transform: rotate(360deg);
   }
 }
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}/*# sourceMappingURL=App.css.map */
