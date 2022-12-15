@@ -1,5 +1,5 @@
 import "./NavBar.scss";
-import logo from "../../images/AA.png";
+
 
 const NavBar = () => {
     return (<div className="navBar">

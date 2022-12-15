@@ -1,0 +1,32 @@
+@use "../../styles/variables.scss" as *;
+
+.project {
+    position: relative;
+    top: 700px;
+    font-weight: bold;
+    font-size: 40px;
+    color: $cap-color;
+    margin-left: 10px;
+    text-align: center;
+    color: $blog-color;
+   .pro__container{
+    display: flex;
+    justify-content: space-around;
+    .container{
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        height: 200px;
+        .pro-head{
+            font-size: 25px;
+            font-weight: bold;
+            color: rgb(117, 154, 185);
+        }
+        .pro-image{
+            width: 100px;
+            height: 150px;
+        }
+    }
+   }
+
+}
