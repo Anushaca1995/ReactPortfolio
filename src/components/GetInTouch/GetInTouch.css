@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Russo+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+.getintouch {
+  padding: 10px;
+  position: relative;
+  height: 300px;
+  top: 1250px;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 19px;
+  color: #272643;
+}
+.getintouch .flex-container {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 30px;
+  text-align: center;
+  justify-content: space-around;
+  padding: 20px;
+}
+.getintouch .flex-container .flex-item {
+  height: 80px;
+  width: 80px;
+}/*# sourceMappingURL=GetInTouch.css.map */
