@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Russo+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+.about {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  position: relative;
+  top: 1050px;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 60px;
+  font-family: "Playfair Display", serif;
+  color: #f1f0f8;
+}
+.about__resume {
+  color: rgb(135, 95, 46);
+  transition: background-color 0.5s;
+}
+.about a:hover {
+  color: rgb(217, 200, 103);
+}/*# sourceMappingURL=About.css.map */

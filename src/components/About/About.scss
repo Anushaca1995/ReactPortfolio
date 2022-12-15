@@ -1,0 +1,21 @@
+@use "../../styles/variables.scss" as *;
+
+.about {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    position: relative;
+    top: 1050px;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 60px;
+    font-family: $about-font;
+    color: $about-color;
+    &__resume{
+        color: rgb(135, 95, 46);
+        transition: background-color 0.5s;
+    }  
+    a:hover {
+        color: rgb(217, 200, 103);
+      }
+}
