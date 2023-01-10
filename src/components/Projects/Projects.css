@@ -3,10 +3,10 @@
 .project {
   font-weight: bold;
   font-size: 40px;
-  color: #3b2261;
+  color: #0d0803;
   margin-left: 10px;
   text-align: center;
-  color: #3b2261;
+  color: #0d0803;
 }
 .project .pro__container {
   display: flex;
@@ -15,15 +15,43 @@
 .project .pro__container .container {
   display: flex;
   flex-direction: column;
-  width: 300px;
-  height: 200px;
 }
 .project .pro__container .container .pro-head {
   font-size: 25px;
   font-weight: bold;
-  color: rgb(117, 154, 185);
+  color: #759ab9;
 }
 .project .pro__container .container .pro-image {
   width: 100px;
   height: 150px;
-}/*# sourceMappingURL=Projects.css.map */
+}
+.project .container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+.project .container .pro-head {
+  font-size: 25px;
+  font-weight: bold;
+  color: #759ab9;
+}
+.project .container .pro-image {
+  width: 100px;
+  height: 150px;
+}
+
+@media only screen and (max-width: 600px) {
+  .pro__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .pro__container .container {
+    width: auto;
+  }
+  .pro__container .container .pro-head {
+    font-size: 15px;
+  }
+}
