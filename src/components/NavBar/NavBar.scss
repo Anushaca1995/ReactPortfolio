@@ -2,8 +2,9 @@
 
 .navBar {
     display: flex;
-    width: 100%;
+    max-width: 100vw;
     max-height: 200px;
+    padding: 3rem;
     font-family: 'Playfair Display', serif;
     font-weight: bold;
     color: $nav-bg;
@@ -19,6 +20,7 @@
         display: flex;
         align-items: center;
         text-align: center;
+        text-decoration: none;
     }
 
     .navBar__skills {
@@ -48,7 +50,7 @@
         text-align: center;
     }
 
-    .navBar__getintouch {
+    .navBar__getInTouch {
         text-decoration: none;
         line-height: 19px;
         display: flex;
@@ -58,4 +60,16 @@
         font-size: 20px;
     }
 
+}
+
+@media only screen and (max-width: 600px) {
+    .navBar {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        &__logo, &__skills, &__about, &__getInTouch, &__project{
+            padding: 0.5rem;
+        }
+    }
 }

@@ -1,11 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Russo+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
 .project {
-  position: relative;
-  top: 700px;
   font-weight: bold;
   font-size: 40px;
-  color: #272643;
+  color: #3b2261;
   margin-left: 10px;
   text-align: center;
   color: #3b2261;

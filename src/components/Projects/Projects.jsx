@@ -4,7 +4,7 @@ import mct from "../../images/projects/mct.png";
 import punk from "../../images/projects/punk.png";
 import ticket from "../../images/projects/ticket.png";
 const Projects = () =>{
-    return( <div class="project" id="projectid">
+    return( <div className="project" id="projectid">
     <h4>Projects</h4>
     <div class="pro__container">
             <div class="container">

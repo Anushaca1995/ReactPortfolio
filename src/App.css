@@ -2,14 +2,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
 .app {
   text-align: center;
+  background-color: bisque;
 }
 .app__header {
+  margin-top: 0rem;
   text-align: center;
-  position: relative;
-  top: 250px;
+  display: flex;
+  padding-top: 18rem;
+  justify-content: center;
+  height: 15rem;
   font-weight: bold;
   font-size: 50px;
-  color: #271048;
+  color: bisque;
+  background-image: url("./images/bg.jpg");
 }
 
 .App-logo {

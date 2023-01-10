@@ -1,21 +1,23 @@
 import "./NavBar.scss";
+import { Link } from "react-router-dom";
 
 
 const NavBar = () => {
+    
     return (<div className="navBar">
-        <p className="navBar__logo">Anusha</p>
-        <a className="navBar__skills">
+        <Link className="navBar__logo" to={"*"}>Anusha</Link>
+        <Link className="navBar__skills" to={"/skills"}>
             Skills
-        </a>
-        <a className="navBar__project">
+        </Link>
+        <Link className="navBar__project" to={"/projects"}>
             Projects
-        </a>
-        <a className="navBar__about">
+        </Link>
+        <Link className="navBar__about" to={"/about"}>
             About
-        </a>
-        <a className="navBar__getintouch">
+        </Link>
+        <Link className="navBar__getInTouch" to={"/getInTouch"}>
             Get In Touch
-        </a>
+        </Link>
     </div>)
 };
 
