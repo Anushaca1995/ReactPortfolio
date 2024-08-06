@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Russo+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+.project {
+  font-weight: bold;
+  font-size: 40px;
+  color: #0d0803;
+  margin-left: 10px;
+  text-align: center;
+}
+.project .pro-text {
+  font-size: 20px;
+  color: #37146a;
+  font-family: "Playfair Display", serif;
+}
+.project .pro__container {
+  display: flex;
+  justify-content: space-around;
+}
+.project .pro__container .container {
+  display: flex;
+  flex-direction: column;
+}
+.project .pro__container .container .pro-head {
+  font-size: 25px;
+  font-weight: bold;
+  color: #759ab9;
+}
+.project .pro__container .container .pro-image {
+  width: 100px;
+  height: 150px;
+}
+.project .pro__container .container .weather-image {
+  width: 200px;
+  height: 150px;
+}
+.project .container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+.project .container .pro-head {
+  font-size: 25px;
+  font-weight: bold;
+  color: #759ab9;
+}
+.project .container .pro-image {
+  width: 100px;
+  height: 150px;
+}
+
+@media only screen and (max-width: 600px) {
+  .pro__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .pro__container .container {
+    width: auto;
+  }
+  .pro__container .container .pro-head {
+    font-size: 15px;
+  }
+}

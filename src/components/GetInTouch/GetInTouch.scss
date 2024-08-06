@@ -1,0 +1,27 @@
+@use "../../styles/variables.scss" as *;
+
+.getintouch {
+    padding: 10px;
+    height: 300px;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 19px;
+    color: $blog-color;
+
+    .flex-container {
+        margin-top: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 30px;
+        text-align: center;
+        justify-content: space-around;
+        padding: 20px;
+        .flex-item {
+            height: 80px;
+            width: 80px;
+        }
+    }
+
+    
+
+}

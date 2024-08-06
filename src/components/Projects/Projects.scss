@@ -1,0 +1,76 @@
+@use "../../styles/variables.scss"as *;
+
+.project {
+    font-weight: bold;
+    font-size: 40px;
+    color: $blog-color;
+    margin-left: 10px;
+    text-align: center;
+    .pro-text{
+        font-size: 20px;
+        color: $about-color;
+        font-family: $about-font;
+    }
+    .pro__container {
+        display: flex;
+        justify-content: space-around;
+
+        .container {
+            display: flex;
+            flex-direction: column;
+
+            .pro-head {
+                font-size: 25px;
+                font-weight: bold;
+                color: rgb(117, 154, 185);
+            }
+
+            .pro-image {
+                width: 100px;
+                height: 150px;
+            }
+
+            .weather-image {
+                width: 200px;
+                height: 150px;
+            }
+        }
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+
+        .pro-head {
+            font-size: 25px;
+            font-weight: bold;
+            color: rgb(117, 154, 185);
+        }
+
+        .pro-image {
+            width: 100px;
+            height: 150px;
+        }
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    .pro__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+
+        .container {
+            width: auto;
+
+            .pro-head {
+                font-size: 15px;
+            }
+        }
+    }
+
+}

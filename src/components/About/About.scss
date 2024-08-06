@@ -1,0 +1,36 @@
+@use "../../styles/variables.scss"as *;
+
+.about {
+
+    &-head {
+        padding: 10px;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 19px;
+        color: $blog-color;
+    }
+
+    &-text {
+        display: flex;
+        flex-direction: column;
+        font-weight: bold;
+        font-size: 25px;
+        padding:50px;
+        line-height: 60px;
+        font-family: $about-font;
+        color: $about-color;
+
+        a:hover {
+            color: rgb(217, 200, 103);
+        }
+    }
+    &__resume {
+        padding: 20px;
+        color: rgb(135, 95, 46);
+        font-size: 25px;
+        font-weight: bold;
+        text-decoration: none;
+        transition: background-color 0.5s;
+    }
+
+}
