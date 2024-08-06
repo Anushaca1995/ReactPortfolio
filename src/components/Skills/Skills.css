@@ -7,7 +7,7 @@
   color: #272643;
   margin-left: 5px;
   text-align: center;
-  color: #3b2261;
+  color: #0d0803;
 }
 .skill .flex-container {
   margin-top: 30px;
@@ -21,5 +21,10 @@
 .skill .flex-container .flex-item {
   height: 100px;
   width: 80px;
-  padding: 25px;
-}/*# sourceMappingURL=Skills.css.map */
+  padding: 20px;
+}
+.skill .flex-container .native {
+  height: 110px;
+  width: 110px;
+  padding: 20px;
+}

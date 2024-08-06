@@ -6,8 +6,11 @@
     color: $blog-color;
     margin-left: 10px;
     text-align: center;
-    color: $blog-color;
-
+    .pro-text{
+        font-size: 20px;
+        color: $about-color;
+        font-family: $about-font;
+    }
     .pro__container {
         display: flex;
         justify-content: space-around;
@@ -24,6 +27,11 @@
 
             .pro-image {
                 width: 100px;
+                height: 150px;
+            }
+
+            .weather-image {
+                width: 200px;
                 height: 150px;
             }
         }

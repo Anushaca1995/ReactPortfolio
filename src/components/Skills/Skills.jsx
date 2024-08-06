@@ -4,6 +4,8 @@ import "./Skills.scss";
         <div class="skill" id="skillsid">
             <h4>Technical skills</h4>
             <div className="flex-container">
+            <img className="native"  src="https://www.brightensolutions.com/assets/img/brand/react-native.png" />
+
             <img className="flex-item"  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg" />
           
             <img className="flex-item" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" />
