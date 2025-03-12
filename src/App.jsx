@@ -12,7 +12,7 @@ function App() {
     <div className="app">
       <Router>
       <Routes>
-        <Route path="*" element={<><NavBar className="app__nav"/><h1 className="app__header">React Native Developer</h1><Skills/><Projects/><About/><GetInTouch/></>} />
+        <Route path="*" element={<><NavBar className="app__nav"/><h1 className="app__header">Seasoned Software Developer</h1><Skills/><Projects/><About/><GetInTouch/></>} />
         <Route path="/skills" element={<><NavBar className="app__nav"/><Skills/></>} />
         <Route path="/projects" element={<><NavBar className="app__nav"/><Projects/></>} />
         <Route path="/about" element={<><NavBar className="app__nav"/><About/></>} />

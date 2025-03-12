@@ -9,9 +9,13 @@ const About = () => {
         <h4 className="about-head">About</h4>
         <p className="about-text">Hello,   I am Anusha Antony.
 
-        I'm a skilled React Native Developer with over two years of hands-on experience crafting both iOS and Android apps. My expertise spans across JavaScript, TypeScript, and a range of popular frameworks like React and Spring Boot. I enjoy working closely with UI/UX designers and backend teams to create seamless and secure user experiences. From integrating secure authentication systems to optimizing state management, I’m passionate about solving complex problems and staying up-to-date with the latest tech trends. I'm known for my strong communication skills, attention to detail, and a commitment to delivering high-quality apps. Always eager to learn and grow, I thrive in collaborative environments where I can contribute to meaningful projects.
+        Seasoned Software Developer and QA Tester with nearly three years of experience in developing and
+ testing scalable, high-performance applications for iOS, Android, and web platforms. Proficient in React
+ Native, ReactJS, JavaScript, Redux, Node.js, and Java/Spring Boot, with a strong background in manual
+ and automated testing using Selenium, Cucumber, Postman, and MySQL. Experienced in CI/CD pipelines,
+ mobile security best practices, API testing, and performance optimization. Passionate about ensuring
+ seamless user experiences through both robust development and rigorous quality assurance.
         </p>
-        <p className="about-text"> Please click below 👇 to view my Resume </p><a class="about__resume" href={resume}>Resume</a>
     </div>)
 }
 export default About;

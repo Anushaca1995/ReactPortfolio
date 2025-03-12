@@ -5,7 +5,7 @@ const GetInTouch = () => {
     return (<div class="getintouch" id="getintouch">
         <h4>Get In Touch</h4>
         <div class="flex-container">
-            <a target="_blank" href="https://www.linkedin.com/in/anusha-antony-982783142/">
+            <a target="_blank" href="https://www.linkedin.com/in/anusha-antony27/">
                 <img className="flex-item" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-plain-wordmark.svg" />
             </a>
             <a target="_blank" href="https://github.com/Anushaca1995/">
